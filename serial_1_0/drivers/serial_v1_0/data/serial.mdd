@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER serial
+	OPTION supported_peripherals = (serial);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = serial;
+END DRIVER
